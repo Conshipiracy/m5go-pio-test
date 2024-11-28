@@ -1,7 +1,7 @@
 #pragma once
 
 #include <programs/ProgramInterface.h>
-#include <M5Stack.h>
+#include <M5Unified.h>
 #include <util/grid/grid.h>
 #include <string>
 

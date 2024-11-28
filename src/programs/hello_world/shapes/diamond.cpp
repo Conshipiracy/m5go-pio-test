@@ -1,6 +1,6 @@
 #include "../hello_world.h"
 
-void shape_diamond(TFT_eSprite *shape, int color)
+void shape_diamond(LGFX_Sprite *shape, int color)
 {
   shape->fillTriangle(
       HALF_WIDTH, 0,

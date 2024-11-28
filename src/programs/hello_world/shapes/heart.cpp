@@ -1,6 +1,6 @@
 #include "../hello_world.h"
 
-void shape_heart(TFT_eSprite *shape, int color)
+void shape_heart(LGFX_Sprite *shape, int color)
 {
   shape->fillCircle(QUART_WIDTH, QUART_HEIGHT, QUART_WIDTH, color);
   shape->fillCircle(WIDTH - QUART_WIDTH, QUART_HEIGHT, QUART_WIDTH, color);

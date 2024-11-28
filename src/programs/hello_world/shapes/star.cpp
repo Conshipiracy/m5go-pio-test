@@ -1,6 +1,6 @@
 #include "../hello_world.h"
 
-void shape_star(TFT_eSprite *shape, int color)
+void shape_star(LGFX_Sprite *shape, int color)
 {
   shape->fillTriangle(
       0, QUART_HEIGHT,

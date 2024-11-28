@@ -2,9 +2,9 @@
 #include "shapes/shapes.h"
 using namespace std;
 
-TFT_eSprite sprite1 = TFT_eSprite(&M5.Lcd);
-TFT_eSprite sprite2 = TFT_eSprite(&M5.Lcd);
-TFT_eSprite sprite3 = TFT_eSprite(&M5.Lcd);
+LGFX_Sprite sprite1 = LGFX_Sprite(&M5.Lcd);
+LGFX_Sprite sprite2 = LGFX_Sprite(&M5.Lcd);
+LGFX_Sprite sprite3 = LGFX_Sprite(&M5.Lcd);
 
 // Used when printing hello world to the screen "async"
 string text = "Hello world!";
@@ -14,14 +14,14 @@ bool print_done = false;
 int print_pos = 0;
 int print_next = 0;
 
-void reset_shape(TFT_eSprite *shape)
+void reset_shape(LGFX_Sprite *shape)
 {
   shape->setColorDepth(8);
   shape->createSprite(WIDTH, HEIGHT);
   shape->fillSprite(TFT_BLACK);
 }
 
-void push_sprite(TFT_eSprite *sprite)
+void push_sprite(LGFX_Sprite *sprite)
 {
   sprite->pushSprite(ScreenX::MIDDLE - HALF_WIDTH, ScreenY::MIDDLE - HALF_HEIGHT);
 }
