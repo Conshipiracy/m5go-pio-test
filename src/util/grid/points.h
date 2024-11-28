@@ -1,5 +1,4 @@
-#ifndef GRID_POINTS_H
-#define GRID_POINTS_H
+#pragma once
 
 struct ScreenX
 {
@@ -14,5 +13,3 @@ struct ScreenY
     static constexpr int END = 240;
     static constexpr int MIDDLE = END / 2;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef PROGRAM_INTERFACE_H
-#define PROGRAM_INTERFACE_H
+#pragma once
 
 class ProgramInterface {
     public:
@@ -8,5 +7,3 @@ class ProgramInterface {
     virtual void setup() = 0;
     virtual void loop() = 0;
 };
-
-#endif

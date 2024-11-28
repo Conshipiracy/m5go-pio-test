@@ -1,7 +1,6 @@
-#ifndef HELLO_WORLD_H
-#define HELLO_WORLD_H
+#pragma once
 
-#include "programs/ProgramInterface.h"
+#include <programs/ProgramInterface.h>
 #include <M5Stack.h>
 #include <util/grid/grid.h>
 #include <string>
@@ -19,5 +18,3 @@ class HelloWorld : public ProgramInterface {
     void setup() override;
     void loop() override;
 };
-
-#endif
