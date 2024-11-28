@@ -4,6 +4,7 @@
 #include "programs/ProgramInterface.h"
 #include <M5Stack.h>
 #include <util/grid/grid.h>
+#include <string>
 
 #define WIDTH 100
 #define HALF_WIDTH WIDTH / 2
