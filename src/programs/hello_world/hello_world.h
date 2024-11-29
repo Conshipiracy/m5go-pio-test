@@ -14,7 +14,7 @@
 #define QUART_HEIGHT HEIGHT / 4
 
 class HelloWorld : public ProgramInterface {
-    public:
-    void setup() override;
-    void loop() override;
+public:
+  void setup() override;
+  void loop() override;
 };

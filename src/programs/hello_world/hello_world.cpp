@@ -72,21 +72,17 @@ void print_text()
   }
 }
 
-void HelloWorld::loop()
-{
+void HelloWorld::loop() {
   M5.update();
   print_text();
 
-  if (M5.BtnA.wasPressed())
-  {
+  if (M5.BtnA.wasPressed()) {
     push_sprite(&sprite1);
   }
-  else if (M5.BtnB.wasPressed())
-  {
+  else if (M5.BtnB.wasPressed()) {
     push_sprite(&sprite2);
   }
-  else if (M5.BtnC.wasPressed())
-  {
+  else if (M5.BtnC.wasPressed()) {
     push_sprite(&sprite3);
   }
 }
