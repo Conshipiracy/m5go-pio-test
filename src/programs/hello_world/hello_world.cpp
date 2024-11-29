@@ -44,7 +44,7 @@ void HelloWorld::print_text() {
 
     if (print_pos >= text.length())
     {
-      if (print_color >= sizeof(colors) / sizeof(colors[0])) {
+      if (print_color >= num_colors) {
         print_color = 0;
       }
 
